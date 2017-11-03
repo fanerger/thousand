@@ -1,6 +1,5 @@
 // 千分位分隔符
 export default function thousandSep (params) {
-  // return (params || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,')
   if (params === null || params === undefined) {
     return null
   } else if (isNaN(params)) {
