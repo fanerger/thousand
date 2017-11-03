@@ -9,4 +9,4 @@ Vue.filter('thousandSep', thousand)
 
 //页面中使用
 
-{{totalFkAmount | thousandSep}}
+{{money | thousandSep}}
