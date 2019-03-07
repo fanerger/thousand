@@ -1,5 +1,4 @@
-# thousand
-vue 千分位 过滤器   大额金额使用
+# vue 千分位 过滤器
 
 ```js
 export default function thousandSep (params) {
